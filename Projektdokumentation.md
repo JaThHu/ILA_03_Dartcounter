@@ -6,11 +6,11 @@ Janick Thomas Hurschler
 | ----- | ------- | ------------------------------------------------------------ |
 |  10.01.2025    | 0.0.0   | Start des Projektes - Informieren, Planen, Entscheiden. Doku erstellt. |
 |  17.01.2025    | 0.1.0 |Implementierung der Startseite, Spieleauswahl und Logik für das 301/501-Game. |
-|  24.01.2025    |  | |
-|  14.02.2025    |  | |
-|  21.02.2025    |  | |
-|  28.02.2025    |  | |
-|  07.03.2025    |  | |
+|  24.01.2025    | 0.2.0 |Implementierung der Gewinneranzeige und Spielende-Bedingungen.  |
+|  14.02.2025    | 0.3.0 | Erstellung der Statistikseite und Anbindung an Firebase.  |
+|  21.02.2025    | 0.4.0 |Optimierung des responsiven Designs für verschiedene Geräte. |
+|  28.02.2025    | 0.5.0 |Speichern, Laden und Anzeigen der Spielstatistiken in Firebase nach Spielende. |
+|  07.03.2025    | 0.6.0 |Implementierung des dunklen Farbschemas als Standarddesign und Deployment auf Netlify. |
 
 
 ## 1 Informieren
@@ -155,6 +155,15 @@ Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich 
 |------|---------|-------------------------|---------------|-------------------|
 |1.1 |  17.01. |    Janick           |   2  |    2     |
 |2.1|17.01.|Janick|2|2|
+| 2.2   | 24.01.2025   | Janick            | 2           | 2                         |
+| 3.1   | 24.01.2025   | Janick            | 2             | 2                         |
+| 4.1   | 14.02.2025   | Janick            |3                   | 3                         |
+| 5.1   | 21.02.2025   | Janick            |3             | 3                         |
+| 8.1   | 21.02.2025   | Janick            | 2          | 2                         |
+| 9.1   | 28.02.2025   | Janick            | 2               | 2                         |
+| 9.2   | 28.02.2025   | Janick            |2             | 2                         |
+| 10.1  | 07.03.2025   | Janick            |1       | 1                         |
+
 
 
 ## 5 Kontrollieren
@@ -164,7 +173,22 @@ Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich 
 
 | TC-№ | Datum       | Resultat | Tester         |
 |------|-------------|----------|----------------|
-| |  |      |  |
+| 1.1| 07.03.2025 |    OK  | Janick |
+| 1.2| 07.03.2025 |    OK  | Janick |
+| 1.3| 07.03.2025 |    OK  | Janick |
+| 2.1| 07.03.2025 |    OK  | Janick |
+| 2.2| 07.03.2025 |    OK  | Janick |
+| 3.1| 07.03.2025 |    OK  | Janick |
+| 4.1| 07.03.2025 |    OK  | Janick |
+| 4.2| 07.03.2025 |    OK  | Janick |
+| 5.1| 07.03.2025 |    OK  | Janick |
+| 5.2| 07.03.2025 |    OK  | Janick |
+| 6.1| 07.03.2025 |    OK  | Janick |
+| 7.1| 07.03.2025 |    OK  | Janick |
+| 8.1| 07.03.2025 |    OK  | Janick |
+| 9.1| 07.03.2025 |    OK  | Janick |
+| 9.2| 07.03.2025 |    OK  | Janick |
+| 10.1| 07.03.2025 |    OK  | Janick |
 
 
 
