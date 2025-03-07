@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { getFirestore, doc, setDoc } from 'firebase/firestore';
+import React, {useState} from 'react';
+import {getFirestore, doc, setDoc} from 'firebase/firestore';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { db } from '../firebase';
 import BackToHomeButton from "../components/common/BackToHome";
+import {db} from "../firebase";
 
 
 const PlayerCreationPage = () => {
@@ -66,7 +66,7 @@ const PlayerCreationPage = () => {
             {/* Feedback anzeigen */}
             {error && <div className="alert alert-danger mt-4">{error}</div>}
             {success && <div className="alert alert-success mt-4">{success}</div>}
-            <BackToHomeButton />
+            <BackToHomeButton/>
         </div>
     );
 };
